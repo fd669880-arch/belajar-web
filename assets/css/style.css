@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.main-header {
+    background-color: #018f26;
+}
+
+.header-logo img {
+    width: 60px;
+    margin: 10px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+.header-sosmed  {
+    margin-left: auto;
+}
+.header-sosmed img {
+    width: 40px;
+    height: auto;
+}
+
+.header-content h1 {
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.header-sub {
+    background-color: #00631a;
+}
+
+.header-nav {
+    margin: 0-20px;
+}
+
+.header-nav a {
+    padding: 15px 20px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.banner img {
+    width: 100%;
+    height: 550%;
+    object-fit: cover;
+}
+
+.tagline {
+    text-align: center;
+    background-color: #018f26;
+    padding: 40px 20px;
+    margin-top: -5px;
+    color: azure;
+}
+
+.tagline h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    color: azure;
+    letter-spacing: 10px;
+}
+
+#berita {
+    padding: 40px 0px;
+}
+
+.berita-data {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.berita-gambar img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+}
+
+.berita-deskripsi h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.berita-tombol {
+    text-decoration: none;
+    background-color: #00631a;
+    color: #ffffff;
+    padding: 10px 10px;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #282525;
+    color: white;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footer-logo img {
+    width: 120px;
+    height: auto;
+}
+
+.footer-info h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.footer-info p {
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 35px;
+    padding-top: 20px 0;
+    width: 100%;
+    border-top: 1px solid rgba(27, 23, 23, 0.3);
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-text .alamat {
+  font-size: 0.85rem;
+  margin-bottom: 0;
+}
+
+.footer-bottom {
+  background-color: #3c3c42;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 50px;
+  font-size: 0.85rem;
+  width: 100%;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
